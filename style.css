@@ -13,12 +13,13 @@ body{
     min-height: 100vh;
     background-color: grey;
 }
-
+.box{
+    padding: 0 10px;
+}
 .wrapper{
     padding: 30px;
     border-radius: 6px;
     background-color: #fff;
-    width: 300px;
 }
 
 .wrapper header{
