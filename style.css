@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: grey;
+}
+
+.wrapper{
+    padding: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.wrapper header{
+    font-size: 23px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.wrapper form {
+    margin: 40px 0 20px 0;
+}
+
+form :where(input, select, button) {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+form p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form input {
+    height: 50px;
+    font-size: 17px;
+    padding: 0 15px;
+    border: 1px solid #999
+}
+
+form input:focus{
+    padding: 0 14px;
+    border: 2px solid green;
+}
+
+form .drop-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.drop-list .select-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.select-box select{
+    width: auto;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0px -5px 0 5px;
+}
+
+.select-box img {
+    max-width: 30px;
+}
+
+.drop-list .icon{
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form .exchange-rate{
+    font-size: 18px;
+    margin: 20px 0 30px;
+    border: solid 2px red;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+form button {
+    height: 52px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: green
+}
